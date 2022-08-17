@@ -13,13 +13,23 @@ public class index {
     
 @GetMapping("/")
 public String indexl(){
-return "Alo API!!!!";
+
+return "<!DOCTYPE html><html>\n" + "<style type=text/css>div{text-align:center;}</style>" + "<header><title>Sistema API </title></header>\n" +
+"<body>\n" + "<div > Bem vindo a minha API - By PhillipeSilva  \n </div>" + "</body>\n" + "</html>";
+
 }
 
-@RequestMapping("/home1")
+@RequestMapping("/home")
 public ModelAndView getWelcomePageAsModel(){
     ModelAndView modelAndView = new ModelAndView();
     modelAndView.setViewName("index.html");
+    return modelAndView;
+}
+
+@RequestMapping("/tabela")
+public ModelAndView gettabelapage(){
+    ModelAndView modelAndView = new ModelAndView();
+    modelAndView.setViewName("tabela.html");
     return modelAndView;
 }
 
