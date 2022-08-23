@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br" 
+xmlns="http://www.w3.org/1999/xhtml" 
+xmlns:th="http://www.thymeleaf.org" 
+xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<title>CSS Make Centrally Aligned Text of Table Head Cell</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+<style>
+.tablecenterheadCSS th{
+	text-align:center;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+	<h2>CSS Make Centrally Aligned Text of Table Head Cell</h2>	
+	<table class="tablecenterheadCSS table table-hover table-bordered">
+		<tr>
+			<th>Cricketer Name</th>
+			<th>Team Name</th>
+			<th>Score</th>                                  
+		</tr>
+		<tr>
+			<td>Shikhar Dhawan</td>
+			<td>India</td>
+			<td>87</td>                                  
+		</tr>
+		<tr>
+			<td>Yuvraj Singh</td>
+			<td>India</td>
+			<td>97</td>                                  
+		</tr>
+	</table>
+</div>
+</body>
+</html>              

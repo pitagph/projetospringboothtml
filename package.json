@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "firebase": "^9.9.2",
     "git": "^0.1.5"
   }
 }
